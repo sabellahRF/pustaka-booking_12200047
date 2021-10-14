@@ -9,7 +9,7 @@
         </div>
         <div class="card-body">
             Halo ini beranda<br />
-            Email yang diisikan : <?= $email ?> <br/>
+            Email yang diisikan : <?= $email ?> <b/>
             Password : <?= $sandi ?>
         </div>
     </div>
