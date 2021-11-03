@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Filters\Auth;
+use App\Filters\AutoIn;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -18,9 +20,9 @@ class Filters extends BaseConfig
     public $aliases = [
         'csrf'     => CSRF::class,
         'toolbar'  => DebugToolbar::class,
-        'honeypot' => Honeypot::class,
+        'honeypot' => Honeypot::class, 
         'auth'     => Auth::class,
-        'AutoIn'   => AutoIn::class
+        'autoin'    => AutoIn::class
     ];
 
     /**
